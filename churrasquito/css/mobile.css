@@ -1,0 +1,30 @@
+header img { width: 80%;}
+
+nav ul li{
+	display: block;
+	list-style: none;
+}
+
+#menu{
+    display: none;
+}
+
+#btnmenu{
+    display: block;
+}
+
+#banner {
+    display: none;
+}
+
+.receita{
+    width: 100%;
+}
+
+.receita img{
+    opacity: 1;
+}
+
+.descricao {
+    width: 100%;
+}

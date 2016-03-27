@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <title>Daniel Sonda</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/tablet.css" media="(max-width:600px)">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css" media="(max-width:480px)">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+  <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+</head>
+
+<body id="topo">
+	<header>
+		<a href="#topo" title="Home" id="logo">Daniel Sonda</a>
+    <a href="#" title="Menu" id="btnmenu"><i class="fa fa-bars fa-2x"></i></a>   
+    
+    <nav id="menu">
+      <ul>
+        <li><a href="#topo" title="Home">Home</a></li>
+        <li><a href="#sobre" title="Sobre">Sobre</a></li>
+        <li><a href="#portfolio" title="Portfolio">Portfólio</a></li>
+        <li><a href="#contato" title="Contato">Contato</a></li>
+      </ul>
+    </nav>
+	</header>
+  
+  <div id="banner" class="cycle-slideshow">
+    <img src="imgs/banner1.jpg" alt="Banner 1" title="Banner 1">
+    <img src="imgs/banner2.jpg" alt="Banner 2" title="Banner 2">
+    <img src="imgs/banner3.jpg" alt="Banner 3" title="Banner 3">
+  </div>
+  
+  <div class="box" id="sobre">
+    <div class="container">
+      <h1>Sobre o Daniel Sonda</h1>      
+      <div class="colunas">
+        <img src="imgs/sobre.jpg" alt="Daniel Sonda" title="Daniel Sonda" class="redondo">
+      </div>      
+      <div class="colunas">
+        <p>Formado em Tecnólogo em Informática pela Unoesc-SMO em 2003, cursou pós-graduação em Ciências da Computação na Unoesc-SMO em 2003 e 2004, pós-graduação em Engenharia e Qualidade de Software na Unochapecó em 2008 e 2009, atualmente cursa pós-graduação em Desenvolvimento Web, Cloud e Dispositivos Móveis na Unoesc-CCO.</p>
+        <p>Desenvolvedor Delphi desde 2003, atualmente atua como gerente de operações na H2J Innovative Solutions, em Cunha Porã - SC. Coordena a equipe técnica de desenvolvimento, além de gerenciar todo o ciclo de vida das soluções. Também atua como consultor BI, desenvolvendo soluções com as ferramentas QlikView e Qlik Sense.</p>
+        <p>Amante da tradição gaúcha, participa do CTG Juca Ruivo de Maravilha - SC, onde é secretário e membro da invernada artística. Nas horas livres, gosta de viajar e brincar com uma câmera fotográfica.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="box" id="portfolio">
+    <div class="container">
+      <h1>Portfólio</h1>
+      <div class="portfolio">
+        <a href="https://github.com/dsonda" target="_blank" alt="GitHub" title="GitHub">
+          <img src="imgs/github.png" alt="GitHub" title="GitHub" class="redondo">
+        </a>          
+      </div>
+      <div class="portfolio">
+        <a href="https://bitbucket.org/danielsonda/" target="_blank" alt="Bitbucket" title="Bitbucket">
+          <img src="imgs/bitbucket.png" alt="Bitbucket" title="Bitbucket" class="redondo">
+        </a> 
+      </div>
+      <div class="portfolio">
+        <a href="http://www.h2j.com.br" target="_blank" alt="H2J" title="H2J">
+          <img src="imgs/h2j.png" alt="H2J" title="H2J" class="redondo">
+        </a> 
+      </div>
+      <div class="portfolio">
+        <a href="https://www.facebook.com/daniel.sonda.3/media_set?set=a.173250972733982.44865.100001472403272&type=3" target="_blank" alt="Fotos" title="Fotos">
+          <img src="imgs/fotos.jpg" alt="Fotos" title="Fotos" class="redondo">
+        </a> 
+      </div>      
+    </div>
+  </div>
+  
+  <div class="box" id="contato">
+    <div class="container">
+      <h1>Contato</h1>
+      
+      <form name="contato" method="post" action="">
+        <label for="nome">Nome</label>
+        <br>
+        <input type="text" name="nome" class="campo" value="" placeholder="Digite seu nome completo" required>
+        <br>
+
+        <label for="email">E-mail</label>
+        <br>
+        <input type="email" name="email" class="campo" value="" placeholder="Digite seu e-mail" required>
+        <br>
+
+        <label for="mensagem">Mensagem</label>
+        <br>
+        <textarea name="mensagem" class="campo" rows="5" required></textarea>
+        <br>
+        
+        <button type="submit" class="btn">
+          <i class="fa fa-paper-plane fa-2x"></i>
+          Enviar Mensagem          
+        </button>
+      </form>      
+    </div>
+  </div>
+  
+  <footer>
+    <p>Site do Daniel Sonda - Todos os direitos reservados</p>
+    <p>Desenvolvido orgulhosamente por Daniel Sonda</p>    
+    <p>
+      <a href="http://www.facebook.com/daniel.sonda.3" title="Facebook">
+        <i class="fa fa-facebook-square fa-3x"></i>
+      </a>
+      <a href="http://www.twitter.com/dsonda" title="Twitter">
+        <i class="fa fa-twitter-square fa-3x"></i>
+      </a>
+    </p>  
+  </footer>
+  
+  <script type="text/javascript">
+      $("#btnmenu").click(function(){
+          $("#menu").toggle();
+      })
+  </script>
+</body>
+</html>

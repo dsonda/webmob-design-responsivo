@@ -1,0 +1,23 @@
+nav, #banner, footer, .btn {
+  display: none;
+}
+
+header img {
+  width: 50%;
+}
+
+.descricao, ul {
+  font-size: 0.8em;
+}
+
+.impressao {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+}
+
+.receita img {
+  opacity: 1;
+  border: none;
+  box-shadow: none;
+}

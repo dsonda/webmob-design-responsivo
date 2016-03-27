@@ -1,0 +1,165 @@
+*{
+	margin: 0px; 
+	padding: 0px;
+    box-sizing: border-box; /* resolve problema de bordas em objetos 100% */
+    -moz-box-sizing: border-box; /* resolve problema de bordas em objetos 100% no Firefox */
+}
+
+header{
+	background: #ECB100;
+	width: 100%;
+	text-align: center;
+}
+
+nav{
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	background: -webkit-linear-gradient(top,#F00,#FFC922);
+    background: linear-gradient(top, #F00, #FFC922);
+	text-align: center;
+	float: left;
+}
+
+nav ul li{
+	display: inline;
+	list-style: none;
+}
+
+nav ul li a{
+	margin: 10px;
+	font: 2em Rokkitt, Tahoma, Arial;
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover{
+	background: #FFF;
+	color: #000; 
+}
+
+#btnmenu{
+    display: none;
+}
+
+.receita{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.receita img {
+    width: 80%;
+    border: 10px solid #FFF;
+    box-shadow: 1px 1px 5px #000;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.receita img:hover{
+    opacity: 1;
+}
+
+h1{
+    font: 3em Rokkitt, Tahoma;
+    color: #F00;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    font: 2em Rokkitt, Tahoma;
+    font-weight: bold;
+    color: #F00;
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    font: 2em Rokkitt, Tahoma;
+    margin: 10px;
+}
+
+.btn{
+    padding: 10px;
+    background: #F00;
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background: #B20000;
+}
+
+.no-cssgradients nav {
+    background: #ECB100
+}
+
+footer {
+    width: 100%;
+    background: #ECB100;
+    padding: 10px 0px 10px 0px;
+    float: left;
+    text-align: center;
+    font: 1.0em Rokkitt, Tahoma;
+    color: #FFF;
+}
+
+footer a {
+    text-decoration: none;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+#banner {
+    float: left;
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
+}
+
+.box {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+.box:focus {
+    background: #FFBFBF;
+}
+
+label {
+    font: 1em Rokkitt, Tahoma;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.descricao {
+    width: 50%;
+    float: right;
+}
+
+.descricao  ul {
+    font: 2em Rokkitt, Tahoma;
+    margin-left: 40px;
+}
+
+.impressao {
+    display: none;
+}

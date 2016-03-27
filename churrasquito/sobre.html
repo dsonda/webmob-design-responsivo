@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">	
+	<title>Churrasquito</title>
+	<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tablet.css" media="(max-width:600px)">
+	<link rel="stylesheet" href="css/mobile.css" media="(max-width:480px)">
+	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+</head>
+<body>
+	<header>
+		<a href="index.html" title="Churrasquito - Home"><img src="imgs/logo.png" alt="Churrasquito" title="Churrasquito"></a>
+	</header>
+	<nav>
+		<a href="#" title="Abrir Menu" id="btnmenu"><img src="imgs/menu2.png" alt="Menu" title="Menu"></a>
+		<ul id="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a href="receitas.html">Receitas</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+    
+    <div id="banner" class="cycle-slideshow">
+      <img src="imgs/1.jpg" alt="Costelinha" title="Costelinha">
+      <img src="imgs/2.jpg" alt="Receitas Suínas" title="Receitas Suína">
+      <img src="imgs/3.jpg" alt="Receitas Especiais" title="Receitas Especiais">
+    </div>
+    
+    <main>
+      <h1>Sobre o Churrasquito</h1>
+
+      <div class="receita">
+        <img src="imgs/sobre.jpg" alt="Sobre" title="Sobre">
+        <p>Endereço de Localização:</p>
+        <p>Av. Fernando Machado, 1000<br>
+        Chapecó - SC</p>
+      </div>
+
+      <p>Bacon ipsum dolor amet salami pork loin pancetta, ground round corned beef pork chop prosciutto bresaola chuck frankfurter. Sausage bacon hamburger cupim short ribs ham chicken jowl leberkas shankle kevin alcatra brisket. Tri-tip swine chuck, corned beef pork jerky kevin rump shankle. Porchetta sausage bresaola picanha, kevin jerky ball tip leberkas ground round shankle pork belly beef chuck chicken prosciutto. Pork belly ham hock sausage kevin swine. Andouille tri-tip shank alcatra pork chop.</p>
+
+      <p>Boudin pork turducken tri-tip hamburger. Pork chicken tongue shank pancetta chuck kielbasa pork belly ball tip flank brisket strip steak pig bacon. Biltong kevin chuck bresaola, alcatra ham turducken shankle meatball pork chop doner. Pork loin ball tip brisket t-bone chicken, kielbasa short ribs beef.</p>
+    </main>
+
+    <footer>
+      <p>
+        Churrasquito - Todos os direitos reservados<br>
+        Desenvolvido por Daniel Sonda
+      </p>
+      <p>
+        <a href="http://www.facebook.com" title="Facebook">
+          <img src="imgs/face.png" alt="Facebook" title="Facebook">
+        </a>
+        <a href="http://www.twitter.com" title="Twitter">
+          <img src="imgs/twitter.png" alt="Twitter" title="Twitter">
+        </a>
+        <a href="contato.html" title="Contato">
+          <img src="imgs/email.png" alt="Contato" title="Contato">
+        </a>
+      </p>  
+    </footer>
+
+    <script type="text/javascript">
+        $("#btnmenu").click(function(){
+            $("#menu").toggle();
+        })
+    </script>
+</body>
+</html>
